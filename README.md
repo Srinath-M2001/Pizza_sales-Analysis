@@ -137,6 +137,9 @@ SELECT pizza_name, COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
 WHERE pizza_category = 'Classic'  GROUP BY pizza_name ORDER BY Total_Orders ASC LIMIT 5;
 Data Cleaning 
 Pizza size category we have in our database is abbreviated and for dashboard we need it in full expanded form. For eg. L= large, M= medium etc, so we will create an alias to temporary change its name in required format. 
+
+![image](https://github.com/user-attachments/assets/67467850-e63f-4f84-a80e-c220faae7d33)
+
  
 Build Dashboard or a Report using Power BI
 Created a comprehensive dashboard in PowerBI featuring key metrics and charts, including Hourly Trend, Weekly Trend, Sales by Category, Sales by Size, Total Pizzas Sold by Category, Top 5 Best Sellers, and Bottom 5 Worst Sellers.
@@ -149,14 +152,20 @@ KPI’S
  
 
 KEY INSIGHTS
+![image](https://github.com/user-attachments/assets/03e079a8-0d8a-4cc2-a64e-791693c6dece)![image](https://github.com/user-attachments/assets/aa03c965-f139-4957-aff9-83805273b525)
+![image](https://github.com/user-attachments/assets/e1b3a307-c1f1-4514-9965-b3ca79bfe800)![image](https://github.com/user-attachments/assets/25bea0f7-5a5b-4874-8a77-a5867205b8d9)
+
+
   
+
+
 
 
   
 
 DASHBOARD
- 
-
+![image](https://github.com/user-attachments/assets/25e00d27-48b2-4435-9af2-6a17a372d2e5)
+![image](https://github.com/user-attachments/assets/688f2b56-546b-4d76-aea0-cd884d8f0031)
  
 Tools, Software, and Libraries
 •	MySQL Workbench 8.0.36 
