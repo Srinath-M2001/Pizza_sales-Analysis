@@ -180,6 +180,7 @@ limit 5;
 ## 🧹 Data Cleaning
 
 Pizza size categories in the dataset are abbreviated (e.g., `s`, `m`, `l`). Aliases were used to expand these values to full names like "Small", "Medium", and "Large" for better clarity in visuals.
+
 ![image](https://github.com/user-attachments/assets/bc6469c5-d5ef-4d87-9742-0577478e93a5)
 
 ---
